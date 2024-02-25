@@ -45,6 +45,27 @@
 
 // E4
 
+// let info = [
+//   {
+//     name: "John",
+//     age: 30,
+//   },
+//   {
+//     name: "Jane",
+//     age: 20,
+//   },
+//   {
+//     name: "Mary",
+//     age: 40,
+//   },
+// ];
+
+// function filterobject(info, object) {
+//   return info.filter((value) => value["name"] !== object.value);
+// }
+
+// console.log(filterobject(info, { key: "name", value: "Jane" }));
+
 // E5
 // let number = [7, 8, 9, 10, 11, 12];
 // let maxnum = 0;
@@ -74,6 +95,27 @@
 
 // console.log(specific(3));
 
+// E8
+
+// let people = [
+//   { name: "John", age: 30 },
+//   { name: "Tom", age: 20 },
+//   { name: "Mary", age: 40 },
+//   { name: "Alex", age: 30 },
+// ];
+
+// const result = function (data, input) {
+//   return data.sort((a, b) => {
+//     if (a.name < b.name) {
+//       return -1;
+//     }else if (a.name > b.name) {
+//       return 1;
+//     }
+//     return 0;
+//   });
+// };
+
+// console.log(result(people, "name"));
 // E9
 // let num = [1, 2, 3, 4, 5, 6];
 // let ber = [7, 8, 9, 10, 11, 12];
@@ -84,9 +126,9 @@
 
 // E10
 
-let randomwords = ["wind", "sun", "wind", "fire"];
+// let randomwords = ["wind", "sun", "wind", "fire"];
 
-let duplicated = randomwords.filter(
-  (value, index, array) => array.indexOf(value) === index
-);
-console.log(duplicated);
+// let duplicated = randomwords.filter(
+//   (value, index, array) => array.indexOf(value) === index
+// );
+// console.log(duplicated);
